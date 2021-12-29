@@ -1,0 +1,40 @@
+.virtual-tour {
+    padding: 0 0 57px 0 ;
+}
+
+.Virtual-tour-caption {
+    padding: 70px 0px 20px 0px;
+}
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.vt-card {
+    flex-basis: 30%;
+}
+
+.vt-card__img {
+    margin: 80px 0 0 0;
+}
+
+.vt-card__360-vt-text {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 2.2rem;
+    margin: 20px 0 0 0;
+}
+
+.vt-card__caption {
+    margin: 25px 0 0 0;
+}
+
+.vt-card__google {
+    margin: 15px 0 0 0;
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1.8rem;
+}

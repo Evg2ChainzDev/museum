@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper header">
+            <div class="header-inline">
+                <div class="logo">
+                    <a href="#">
+                        <object type="image/svg+xml" data="./img/svg/logo.svg" class="logo-object">
+                            Your browser doesn't support svg
+                        </object>
+                        <h4 class="logo__text">
+                            Louvre
+                        </h4>
+                    </a>
+                </div>
+
+                <nav>
+                    <ul class="menu">
+                        <li class="nav__link"><a href="#">Visiting</a></li>
+                        <li class="nav__link"><a href="#">Explore</a></li>
+                        <li class="nav__link"><a href="#">Video</a></li>
+                        <li class="nav__link"><a href="#">Tickets</a></li>
+                        <li class="nav__link"><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="welcome">
+        <div class="wrapper">
+            <h1 class="welcome__welcome-text">Welcome <br> to the Louvre</h1>
+            <h4>From the castle to the museum</h4>
+            <button class="button-discover">Discover the Louvre</button>
+        </div>
+    </section>
+
+    <section class="virtual-tour">
+        <div class="wrapper">
+            <h2 class="Virtual-tour-caption">Virtual tour</h2>
+            <div class="layout-3-column">
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Royal_Palace.jpg" alt="Royal palace">
+                    <h3 class="vt-card__caption">Royal palace</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google">Google street panorama view</h6>
+                </div>
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Denon_Wing.jpg" alt="Denon Wing">
+                    <h3 class="vt-card__caption">Denon Wing</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google">Google street panorama view</h6>
+                </div>
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Colonnade_Perrault.jpg" alt="Colonnade Perrault">
+                    <h3 class="vt-card__caption">Colonnade Pedrrault</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google">Google street panorama view</h6>
+                </div>
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Greek_hall.jpg" alt="Greek hall">
+                    <h3 class="vt-card__caption">Greek hall</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google">Google street panorama view</h6>
+                </div>
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Mona_Lisa.jpg" alt="Mona Lisa">
+                    <h3 class="vt-card__caption">Mona Lisa</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google">Google street panorama view</h6>
+                </div>
+                <div class="vt-card">
+                    <img class="vt-card__img" src="/img/virtual_tour/Night_Palace.jpg" alt="Night Palace">
+                    <h3 class="vt-card__caption">Night Palace</h3>
+                    <h5 class="vt-card__360-vt-text">360 Virtual Tour</h5>
+                    <h6 class="vt-card__google" >Google street panorama view</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="picture-explore">
+        <div class="wrapper">
+            <div class="layout-2-column">
+                <div>
+                    <h2>Picture explore</h2>
+                    <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.
+                    </p>
+                    <p>It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.
+                    </p>
+                    <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.
+                    </p>
+                </div>
+                <div>
+                    <img src="/img/picture_explore/picture_explore.jpg" alt="picture-explore">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-journey">
+        <div class="wrapper">
+            <div class="player">
+                <img src="/img/player/player.jpg" alt="player">
+            </div>
+            <div class="layout-2-column">
+                <h2>Video Journey</h2>
+                <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa
+                    or
+                    Hammurabi's Code</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy-tickets">
+        <div class="wrapper">
+            <h2>Buy tickets</h2>
+            <div class="layout-2-column">
+                <div>
+                    <img src="/img/buy_tickets/buy_tickets.jpg" alt="buy-tickets">
+                </div>
+                <div>
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Ticket Type</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" checked id="permanent" name="ticket" value="permanent">
+                                    <label for="permanent">permanent</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="temporary" name="ticket" value="temporary">
+                                    <label for="temporary">temporary</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="combined" name="ticket" value="combined">
+                                    <label for="combined">combined</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                            <span>amount</span>
+                            <span>total 220$</span>
+                            <button>byu now</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="wrapper">
+            <h2>Contacts</h2>
+            <div>
+                <div class="adress">
+                    <h5>
+                        Palais Royal Musee du Louvre
+                    </h5>
+                    <h6>address: 75001 Paris, France</h6>
+                    <h6>address: 75001 Paris, France</h6>
+                    <h6>address: 75001 Paris, France</h6>
+                </div>
+                <div class="map">
+                    <img src="/img/contact_us/map-contact-us.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        footer
+    </footer>
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

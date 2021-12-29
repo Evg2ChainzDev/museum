@@ -1,0 +1,26 @@
+@import "base/_normalize";
+@import "base/_constants";
+@import "base/fonts";
+@import "components/header";
+@import "components/welcome";
+@import "base/_buttons";
+@import "components/virtual-tour";
+@import "components/picture-explore";
+@import "components/video-journey";
+
+
+// font-family: 'Forum', cursive;
+// font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+h2 {
+    color: $color-gold;
+}
+

@@ -1,0 +1,30 @@
+.welcome {
+    background-color: $color-dark;
+    color: $color-light;
+    background-image: url(../../img/welcome/welcome-background.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.welcome .wrapper {
+    padding: 110px 0 300px 0;
+}
+
+.welcome__welcome-text {
+    margin: 0;
+    
+}
+
+.welcome h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.2rem;
+    text-transform: none;
+}
+
+
+
+

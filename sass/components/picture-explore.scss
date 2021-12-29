@@ -1,0 +1,21 @@
+.picture-explore {
+    background-color: $color-dark;
+    padding: 70px 0 70px 0;
+    & h2 {
+        color: $color-light;
+        padding: 0 0 80px 0;
+    }
+    & p {
+        color: $color-light;
+        font-size: 22px;
+        line-height: 38px;
+        padding: 0 60px 5px 0;
+    }
+    & img {
+        margin: 20px 0 0 0;
+    }
+}
+
+.layout-2-column {
+    display: flex;
+}
